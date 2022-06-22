@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path
 from kannu import views
 urlpatterns = [
-    path("", views.index, name='home'),
+    path("", views.base, name='home'),
     path("about/", views.about,name='about'),
     path("contact",views.contact,name='contact'),
     path("BS/",views.BS,name="BHAGAT SINGH"),

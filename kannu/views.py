@@ -3,8 +3,8 @@ from datetime import datetime
 from kannu.models import Contact
 from django.contrib import messages
 
-def index(request):
-    return render(request, 'index.html')
+def base(request):
+    return render(request, 'base.html')
 
 def contact(request):
     if request.method == "POST":
